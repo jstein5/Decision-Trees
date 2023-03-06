@@ -6,6 +6,10 @@ Ein Decision Tree ist ein Machine Learning Algorithmus, der eine Vorhersage (Reg
 - gut interpretierbar
 - eignen sich für verschieden Daten, auch mit komplexen, nichtlinearen Zusammenhängen
 - relativ robust gegenüber Overfitting und Ausreißern
+- schnell zu trainieren, verbrauchen vergleichsweise wenige Daten
+
+## Wofür sind tree-based Algorithmen nicht geeignet?
+- unstrukturierte Daten (Bilder, Text, Audio)
 
 ## Wie funktioniert ein Entscheidungsbaum?
 Einführung: Struktur
