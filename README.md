@@ -14,7 +14,7 @@ Ein Decision Tree ist ein Machine Learning Algorithmus, der eine Vorhersage (Reg
 ## Wie funktioniert ein Entscheidungsbaum?
 Einführung: Struktur
 ### splitting
-- Einschränkung auf Regression: Residuenquadratsumme 
+- Einschränkung auf Regression: Residuenquadratsumme minimieren
 ### pruning
 - Warum? Um Overfitting zu vermeiden und Trainingszeit zu verkürzen
 - Hyperparameter: max_depth
@@ -26,7 +26,9 @@ Einführung: Struktur
 - random forests (zur Seite)
 - boosting (nach unten)
 ### interpretieren
-- 
+- scikit-learn: feature_importances_
+- SHAP
+- permutation importance
 ## Wichtige Algorithmen, die auf Entscheidungsbäumen basieren 
 - random forest
 - XGBoost
